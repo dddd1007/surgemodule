@@ -2,7 +2,7 @@
 #!desc=https://github.com/blackmatrix7/ios_rule_script
 
 [General]
-dns-server = 1.1.1.1,8.8.8.8,system
+dns-server = 1.1.1.1,8.8.8.8
 ipv6 = true
 http-listen = 0.0.0.0
 socks5-listen = 0.0.0.0
