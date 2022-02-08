@@ -7,14 +7,9 @@ ipv6 = true
 http-listen = 0.0.0.0:6152
 socks5-listen = 0.0.0.0:6153
 
-skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local, *.crashlytics.com, *.edu.cn, *.evernote.com, *.yinxiang.com
-tun-excluded-routes = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
-tun-included-routes = 192.168.1.12/32
-
 always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com
 
 show-error-page-for-reject = true
-tls-provider = default
 
 [URL Rewrite]
 # > Redirect Google Service
@@ -39,4 +34,3 @@ amplifi.lan = server:system
 
 [Rule]
 DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_Domain.list,REJECT-TINYGIF,update-interval=86400
-
