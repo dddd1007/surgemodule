@@ -2,12 +2,8 @@
 #!desc=more settings for my surge to rewrite and other things
 
 [General]
-dns-server = 1.1.1.1,8.8.8.8
-ipv6 = true
 http-listen = 0.0.0.0:6152
 socks5-listen = 0.0.0.0:6153
-
-always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com
 
 show-error-page-for-reject = true
 
