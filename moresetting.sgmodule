@@ -4,7 +4,7 @@
 [General]
 http-listen = 0.0.0.0:6152
 socks5-listen = 0.0.0.0:6153
-
+doh-server = https://15384461223.rubyfish.cn/
 show-error-page-for-reject = true
 
 [URL Rewrite]
